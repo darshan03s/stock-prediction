@@ -8,6 +8,8 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import load_model
 import streamlit as st
 
+st.set_page_config(page_title='Stock Prediction | App', page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
+
 st.title("Stock Trend Prediction using LSTM")
 
 st.sidebar.title("")
